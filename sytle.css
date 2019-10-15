@@ -1,0 +1,85 @@
+body {
+  position: absolute
+  margin: 0;
+  padding: 0;
+  background: #136971;
+  font-family: sans-serif;
+
+}
+form{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.login {
+  width: 300px;
+  padding: 40px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: rgba(12, 12, 12, 0.534);
+  border-radius: 30px;
+}
+.login input[type="email"],
+.login input[type="Password"],.login input[type="text"] {
+  border: 0;
+  display: block;
+  margin: 20px auto;
+  padding: 10px;
+  background: none;
+  color: white;
+  border: solid 2px rgba(48, 48, 204, 0.9);
+  border-radius: 25px;
+  outline: none;
+  transition: 0.3;
+  width: 250px;
+  text-align: center;
+  cursor: pointer;
+}
+.login input[type="email"]:focus,
+.login input[type="Password"]:focus {
+  width: 300px;
+  border: solid 2px rgba(252, 24, 24, 0.9);
+  transition-duration: 0.3s;
+}
+.login h1 {
+  text-align: center;
+  color: rgba(198, 255, 43, 0.932);
+  text-transform: uppercase;
+  font-weight: 400;
+}
+
+.login input[type="submit"] {
+  border: 0;
+  display: block;
+  margin: 10px auto;
+  padding: 5px;
+  background: none;
+  color: white;
+  border: solid 2px rgba(83, 216, 100, 0.932);
+  border-radius: 25px;
+  outline: none;
+  transition-duration: 0.3s;
+  width: 70px;
+  text-align: center;
+  cursor: pointer;
+}
+.login input[type="submit"]:hover {
+  background: rgba(83, 216, 100, 0.932);
+  width: 100px;
+}
+
+.login input[type="email"]:hover,
+.login input[type="Password"]:hover {
+  background: rgba(255, 255, 255, 0.2);
+
+
+}
+.show{
+ height: 50px;
+ width: 50px;
+ object-fit: contain
+  
+}
